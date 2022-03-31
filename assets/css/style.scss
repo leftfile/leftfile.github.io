@@ -1,6 +1,8 @@
 
 
 @import "{{ site.theme }}";
-.page-header {
-  background-color: black;
+.main-content {
+  h1 {
+   color: #ff0000;
+ }
 }
