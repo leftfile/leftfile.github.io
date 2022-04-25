@@ -4,6 +4,16 @@ You can use the [editor on GitHub](https://github.com/leftfile/leftfile.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+# Table of contents
+1. [PART ONE: a gentle introduction](#one)
+Read this if you use an object-oriented approach to designing your software on a daily basis and are wondering what this essay is about. 
+ 
+2. [PART TWO: condensed wisdom. ](#two)
+Read this if you want a simple list of rules for better design with examples.
+
+3. [PART THREE: a more in-depth discussion](#three) Read this if you consider yourself a functional programmer and/or don't mind philosophical discussions on programming.
+
 ### Markdown
 
 # hello world
