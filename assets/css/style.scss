@@ -1,20 +1,14 @@
 ---
 ---
 
-.page-header {
-  background-color:red;
-}
-
-
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: black !default;
-$header-bg-color: white;
-$header-bg-image: 'new.jpeg';
-$header-bg-color-secondary: black;
+$header-heading-color: #fff !default;
+$header-bg-color: #f39c12;
+$header-bg-color-secondary: #e67e22;
 
 // Text
 $section-headings-color: #D35400;
