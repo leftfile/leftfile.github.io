@@ -6,12 +6,12 @@ $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #adc9b5 !default;
+$header-heading-color: white !default;
 $header-bg-color: black;
 $header-bg-color-secondary: black;
 
 // Text
-$section-headings-color: white;
+$section-headings-color: #79ad7e;
 $body-text-color: #606c71 !default;
 $body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
@@ -25,7 +25,3 @@ $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
-@import "{{ site.theme }}";
-.markdown-body {
-  font-family: 'Times New Roman', Times, serif;
-}
