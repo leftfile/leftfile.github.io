@@ -26,3 +26,6 @@ $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
 @import "{{ site.theme }}";
+.markdown-body {
+  font-family: 'Times New Roman', Times, serif;
+}
