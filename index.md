@@ -1,6 +1,7 @@
 ### Thinking differently about code
-
 # A new approach to design thinking
+
+
 
 
 1. [PART ONE: a gentle introduction](#one)
