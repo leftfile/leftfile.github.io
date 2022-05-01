@@ -2,7 +2,9 @@
 ## A new approach to design thinking
 ____________________
 
-Code standards are like beauty standards. They should change every couple of years or decades. This essay explores their future.
+<br>
+
+Code standards should be like beauty standards - evolve constantly and change fundamentally every decade or so. This essay explores their future.
 
 <br>
 <br>
