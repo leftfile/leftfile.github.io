@@ -1,10 +1,5 @@
 ## Thinking differently about code: a new approach to design thinking
 
-You can use the [editor on GitHub](https://github.com/leftfile/leftfile.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
 # Table of contents
 1. [PART ONE: a gentle introduction](#one)
 Read this if you use an object-oriented approach to designing your software on a daily basis and are wondering what this essay is about. 
