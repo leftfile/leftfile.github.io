@@ -280,6 +280,9 @@ The following that FP has is, of course, much smaller but arguably more passiona
 This leads us to believe that a purely functional revolution is unlikely to happen anytime soon. What follows from this is that the only viable way to make functional thinking more popular is to make it more like OO - only on the surface, of course. In a pure functional language that’s impossible, since we are not trying to change the language itself, only its ecosystem. But in languages that support multiple paradigms we have the freedom to do so. There we can shape functional thinking into digestible chunks, wrap it into a friendlier philosophy, attempt to guide users to better design decisions - similar to what the SOLID principles did for OO. We can think of this as populating an empty space between the two camps, bridging the gap between them, thus allowing them to learn from each other. 
 
 
+© Leftfile 2022
+
+
 
 
 
