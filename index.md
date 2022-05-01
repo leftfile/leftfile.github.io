@@ -1,11 +1,14 @@
 # Thinking differently about code
 ## A new approach to design thinking
 <br/>
-<br/>
-<br/>
-____________________
 
 Code standards are like beauty standards. They should change every couple of years or decades. This essay explores their future.
+
+<br/>
+<br/>
+
+
+_____________________
 
 
  [PART ONE: a gentle introduction](#one)
