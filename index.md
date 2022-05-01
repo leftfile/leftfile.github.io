@@ -1,6 +1,6 @@
-### Thinking differently about code:an essay
+### Thinking differently about code: a new approach to design thinking
 
-#A new approach to design thinking
+### A practical essay
 
 
 1. [PART ONE: a gentle introduction](#one)
