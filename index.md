@@ -5,6 +5,7 @@ ____________________
 <br>
 
 Code standards should be like beauty standards - evolve constantly and change fundamentally every decade or so. This essay explores their future.
+
 ____________________
 
 ## Table of contents:
