@@ -4,13 +4,13 @@ ____________________
 
 
 
-1. [PART ONE: a gentle introduction](#one)
+ [PART ONE: a gentle introduction](#one)
 Read this if you use an object-oriented approach to designing your software on a daily basis and are wondering what this essay is about. 
  
-2. [PART TWO: condensed wisdom. ](#two)
+ [PART TWO: condensed wisdom. ](#two)
 Read this if you want a simple list of rules for better design with examples.
 
-3. [PART THREE: a more in-depth discussion](#three) Read this if you consider yourself a functional programmer and/or don't mind philosophical discussions on programming.
+ [PART THREE: a more in-depth discussion](#three) Read this if you consider yourself a functional programmer and/or don't mind philosophical discussions on programming.
 
 
 # PART ONE: a gentle introduction <a name="one"></a>
