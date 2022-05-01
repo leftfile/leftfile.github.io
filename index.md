@@ -1,5 +1,5 @@
-### Thinking differently about code
-# A new approach to design thinking
+# Thinking differently about code
+### A new approach to design thinking
 ____________________
 
 
@@ -11,6 +11,9 @@ Read this if you use an object-oriented approach to designing your software on a
 Read this if you want a simple list of rules for better design with examples.
 
  [PART THREE: a more in-depth discussion](#three) Read this if you consider yourself a functional programmer and/or don't mind philosophical discussions on programming.
+ 
+ 
+ ____________________
 
 
 # PART ONE: a gentle introduction <a name="one"></a>
