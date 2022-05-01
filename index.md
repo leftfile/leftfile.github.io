@@ -15,6 +15,12 @@ Read this if you want a simple list of rules for better design with examples.
 
  [PART THREE: a more in-depth discussion](#three) Read this if you consider yourself a functional programmer and/or don't mind philosophical discussions on programming.
  
+ [Resources](#one)
+  
+ [Contact](#one)
+ 
+ 
+ 
  
  ____________________
 
