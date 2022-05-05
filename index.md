@@ -196,54 +196,54 @@ We will make our points through an example of one of the most common (and boring
 
 4. <b> SIMPLE logic in functions that compute values. We can think of these functions in terms of having just three elements: parameters, return value, and logic. Logic is simply what computes the return value from the parameters.</b>
 
-		**Example:**
-		
-		Let's pretend for a second that we haven't written our function that constructs the email yet, but we know what we need from it - the final template that will be send. So we set that as a return value. We also know the subject and the weekday will vary, which means they should be parameters. For simplicity's sake let's say we are 100% sure that all of these values will always be of type string.
-		
-			```python	
-				def construct_message(subject, weekday):
-				    pass
+	**Example:**
 
-				### ???
+	Let's pretend for a second that we haven't written our function that constructs the email yet, but we know what we need from it - the final template that will be send. So we set that as a return value. We also know the subject and the weekday will vary, which means they should be parameters. For simplicity's sake let's say we are 100% sure that all of these values will always be of type string.
 
-				    return template
-
-			 ```
-
-				    
-				    
-	Now, to write this function, we only need to ask ourselves one question - how do we get the 'template' string from the 'subject' and 'weekday' strings in the simplest possible way? And again, this is our result:
-		
-			 
-		 
-		
-		    ```python
-
+		```python	
 			def construct_message(subject, weekday):
+			    pass
 
-			    template = """From: From Person <from@fromdomain.com>
-			    To: To Person <to@todomain.com>
-			    Subject: {subject}
-
-			    Hey, happy {weekday}!
-
-			    This is a test e-mail message.
-			    """.format(subject=subject, weekday=weekday)
+			### ???
 
 			    return template
 
-			```
-			
-	We have simply added to the body of the function what is necessary to compute the return value from the parameters - and nothing else.
-			
-			    
-		
-	**Simple explanation:** This ensures that every time this function is called, the exact same thing happens - no unexpected bugs.
-			
-	 **Less simple explanation:** This encourages the functional programming principles of referential transparency and determinism.
-		
-	
-	
+		 ```
+
+
+
+Now, to write this function, we only need to ask ourselves one question - how do we get the 'template' string from the 'subject' and 'weekday' strings in the simplest possible way? And again, this is our result:
+
+
+
+
+	    ```python
+
+		def construct_message(subject, weekday):
+
+		    template = """From: From Person <from@fromdomain.com>
+		    To: To Person <to@todomain.com>
+		    Subject: {subject}
+
+		    Hey, happy {weekday}!
+
+		    This is a test e-mail message.
+		    """.format(subject=subject, weekday=weekday)
+
+		    return template
+
+		```
+
+We have simply added to the body of the function what is necessary to compute the return value from the parameters - and nothing else.
+
+
+
+**Simple explanation:** This ensures that every time this function is called, the exact same thing happens - no unexpected bugs.
+
+ **Less simple explanation:** This encourages the functional programming principles of referential transparency and determinism.
+
+
+
 
 
 5. <b> SENSIBLE abstractions. Most code duplication can be avoided with a properly parametrised function.</b>
