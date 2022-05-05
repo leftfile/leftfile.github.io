@@ -110,15 +110,15 @@ We will make our points through an example of one of the most common (and boring
 	receivers = ['matt@gmail.com', 'lauren1@email.com', 'tina@domain.co']
 	```
 	
- Sometime later in your code you need to add a new receiver to your list. Instead of adding it to the existing list (``` receivers + 'jack123@hotmail.com````) you introduce a new variable
- 
- ```python
-   new_receivers = ['matt@gmail.com', 'lauren1@email.com', 'tina@domain.co', jack@123@hotmail.com]
- ```
-	
-**Simple explanation:** This may seem like an unnecessary extra step in the moment, but it prevents a lot of bugs in the long run as it becomes more and more difficult to trace the changes of the value through the different places in your code.
-		
-**Less simple explanation:** [Immutability](#four) is a fundamental principle of functional programming. Even when a language allows mutability of data structures, developing an intuition of not using it unnecessarily has a similar advantage of robustness.
+	 Sometime later in your code you need to add a new receiver to your list. Instead of adding it to the existing list (``` receivers + 'jack123@hotmail.com````) you introduce a new variable
+
+	 ```python
+	   new_receivers = ['matt@gmail.com', 'lauren1@email.com', 'tina@domain.co', jack@123@hotmail.com]
+	 ```
+
+	**Simple explanation:** This may seem like an unnecessary extra step in the moment, but it prevents a lot of bugs in the long run as it becomes more and more difficult to trace the changes of the value through the different places in your code.
+
+	**Less simple explanation:** [Immutability](#four) is a fundamental principle of functional programming. Even when a language allows mutability of data structures, developing an intuition of not using it unnecessarily has a similar advantage of robustness.
 
 
 2.  <b>SMALL functions. A function is the basic building block of your program (not a class). A function is never too small, but is easily too large. It should only do one thing. </b>
