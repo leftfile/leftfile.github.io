@@ -116,9 +116,9 @@ We will make our points through an example of one of the most common (and boring
    new_receivers = ['matt@gmail.com', 'lauren1@email.com', 'tina@domain.co', jack@123@hotmail.com]
  ```
 	
-	**Simple explanation:** This may seem like an unnecessary extra step in the moment, but it prevents a lot of bugs in the long run as it becomes more and more difficult to trace the changes of the value through the different places in your code.
+**Simple explanation:** This may seem like an unnecessary extra step in the moment, but it prevents a lot of bugs in the long run as it becomes more and more difficult to trace the changes of the value through the different places in your code.
 		
-	**Less simple explanation:** [Immutability](#four) is a fundamental principle of functional programming. Even when a language allows mutability of data structures, developing an intuition of not using it unnecessarily has a similar advantage of robustness.
+**Less simple explanation:** [Immutability](#four) is a fundamental principle of functional programming. Even when a language allows mutability of data structures, developing an intuition of not using it unnecessarily has a similar advantage of robustness.
 
 
 2.  <b>SMALL functions. A function is the basic building block of your program (not a class). A function is never too small, but is easily too large. It should only do one thing. </b>
@@ -136,8 +136,8 @@ We will make our points through an example of one of the most common (and boring
 
 	**Example:**
 	
-	Ok, so we already know we're going to split our code into functions, but how exactly? We're going to find the parts of our program that communicate with the outside world (actions) and the parts that do not (computatios) and separate them. 
-	
+	Ok, so we already know we're going to split our code into functions, but how exactly? We're going to find the parts of our program that 		communicate with the outside world (actions) and the parts that do not (computatios) and separate them. 
+
 	
 	Some more details on the requirements of our task: since this is a promotional email for our company, the sender (us) and the list of receivers (our mailing list) will always be the same. The subject, however, will vary, because we will have different types of promotions. In the body of the email, we also need to display today's day.
 	
